@@ -3,21 +3,52 @@
 ## Sistema de Controle para pedidos de restaurante
 
 Este repositório contém a documentação e os detalhes gerais do projeto.
-Requisitos:
 
+# Estrutura do Sistema
 
-Estrutura
-Classes
+## Classes
 
+### Colaborador
+- `id`: int
+- `nome`: String
+- `cpf`: String
+- `senha`: String
 
-Colaborador 
+### Atendente (extends Colaborador)
+- `FazerPedido()`
+- `VerPedido()`
 
-Atendente extend Colaborador 
+### Caixa (extends Colaborador)
+- `VerPedido()`
+- `ReceberPagamento()`
 
-Administrativo extend Colaborador
+### Cozinha (extends Colaborador)
+- `VerPedido()`
+- `AlterarStatusPedido()`
 
+### Administrativo (extends Colaborador)
+- `FazerPedido()`
+- `EditarPedido()`
+- `RemoverPedido()`
+- `VerPedido()`
+- `AdicionarColaborador()`
+- `EditarColaborador()`
+- `RemoverColaborador()`
+- `VerColaborador()`
+- `AdicionarItemMenu()`
+- `EditarItemMenu()`
+- `RemoverItemMenu()`
+- `VerItemMenu()`
 
+## ItemMenu
+- `id`: int
+- `item`: String
+- `tipo`: String
+- `preco`: double
+- `disponivel`: boolean
 
-Menu
-
-Comanda extend Menu
+## Pedido
+- `id`: int
+- `comanda`: int
+- `observação`: String
+- `@ManyToOne ItemMenu itemMenu`
