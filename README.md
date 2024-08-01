@@ -1,8 +1,16 @@
-# SistemaDeComanda
+# RestaurantOwners
 
-## Sistema de Controle para pedidos de restaurante
+## Sistema de CRM para restaurantes
 
 Este repositório contém a documentação e os detalhes gerais do projeto.
+
+Tecnologias:
+
+Java, Web
+
+
+
+
 
 # Estrutura do Sistema
 
