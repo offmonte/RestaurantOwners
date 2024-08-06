@@ -21,7 +21,7 @@ https://www.figma.com/design/8dtOZKWDdyo2Hi5kPIGP2b/RestaurntOwner?node-id=0-1&m
 ## Classes
 
 ### Colaborador
-- `id`: int
+- `id`: Long
 - `nome`: String
 - `cpf`: String
 - `senha`: String
@@ -53,14 +53,14 @@ https://www.figma.com/design/8dtOZKWDdyo2Hi5kPIGP2b/RestaurntOwner?node-id=0-1&m
 - `VerItemMenu()`
 
 ## ItemMenu
-- `id`: int
+- `id`: Long
 - `item`: String
 - `tipo`: String
 - `preco`: double
 - `disponivel`: boolean
 
 ## Pedido
-- `id`: int
+- `id`: Long
 - `comanda`: int
 - `observação`: String
 - `@ManyToOne ItemMenu itemMenu`
