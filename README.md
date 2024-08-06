@@ -10,7 +10,7 @@ Java, Web
 
 Figma:
 
-{link}
+https://www.figma.com/design/8dtOZKWDdyo2Hi5kPIGP2b/RestaurntOwner?node-id=0-1&t=KRotBr78WA9jli7V-0
 
 
 
