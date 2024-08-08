@@ -57,6 +57,7 @@ https://www.figma.com/design/8dtOZKWDdyo2Hi5kPIGP2b/RestaurntOwner?node-id=0-1&m
 - `item`: String
 - `tipo`: String
 - `preco`: double
+- `descricao`: String
 - `disponivel`: boolean
 
 ## Pedido
