@@ -19,6 +19,9 @@ public class Pedido {
     @NotBlank()
     private int observação;
 
+    @NotBlank()
+    private Colaborador colaborador;
+
     @ManyToOne 
     private ItemMenu itemMenu;
 }
