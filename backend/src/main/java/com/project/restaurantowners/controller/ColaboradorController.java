@@ -16,7 +16,7 @@ public class ColaboradorController {
     private ColaboradorService colaboradorService;
 
     @GetMapping
-    public List<Colaborador> findall() {
+    public List<Colaborador> findAll() {
         return colaboradorService.findAll();
     }
 
